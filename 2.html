@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          color: #244b13; /* 카키 색상 */
+          background-color: #bebe5a; /* 베이지 색상 */
+        }
+        
+      </style>
+      
+</head>
+<body>
+<h1>정정현의 일상</h1>
+<p>일일 방문자 수 24 &nbsp; 전체 방문자 수 523 </p>
+<i>Jung Jung Hyun</i>
+<form action="URL" method="POST">
+    <input type="email" name="email" placeholder="이메일" required>
+    <input type="password" name="password" placeholder="비밀번호">
+    <input type="submit" value="로그인">
+</form>
+<br> 
+<button id="likeButton">좋아요 0</button>
+<script>
+  var likeCount = 0;
+  document.getElementById('likeButton').onclick = function() {
+    likeCount++;
+    this.textContent = '좋아요 ' + likeCount;
+  };
+</script>
+
+<br> <br>
+<img src="야경.jpg" alt="설명" style="width:200px; height:200px;">
+<img src="카페.jpg" alt="설명" style="width:200px; height:200px;">
+<img src="헬스장.jpg" alt="설명" style="width:200px; height:200px;">
+<br> <br>
+
+<audio controls>
+    <source src="프리지아.mp3" type="audio/mpeg">
+    브라우저가 오디오를 지원하지 않습니다.
+</audio>
+
+
+</body>
+</html>
