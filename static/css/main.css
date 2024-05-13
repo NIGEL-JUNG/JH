@@ -1,3 +1,93 @@
-h1 {
-    color: green;
-}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4cae4c;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #286090;
+  }
+  
+  img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+
+  a {
+    display: block; /* 블록 요소로 만들어 가운데 정렬 가능하게 함 */
+    text-align: center; /* 텍스트(아이콘 포함)를 가운데 정렬 */
+    font-size: 2em; /* 아이콘 크기를 2em으로 설정 */
+    margin-top: 20px; /* 위쪽 여백 추가 */
+    margin-bottom: 20px; /* 아래쪽 여백 추가 */
+  }
+  
+  /* Font Awesome 아이콘 기본 스타일링 */
+  .fab {
+    color: #333; /* 아이콘 색상 설정 */
+    transition: color 0.3s; /* 색상 변경시 부드러운 전환 효과 */
+  }
+  
+  /* Font Awesome 아이콘에 마우스 호버시 스타일링 */
+  .fab:hover {
+    color: #833AB4; /* 인스타그램 브랜드 색상으로 변경 */
+  }
